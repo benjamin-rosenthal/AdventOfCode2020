@@ -8,7 +8,7 @@ namespace Part1
     {
         public static void Main(string[] args)
         {
-            var inputStrings = InputReader.InputToList(System.IO.File.ReadAllText(@"../../../input.txt"));
+            var inputStrings = InputReader.InputToList(System.IO.File.ReadAllText(@"../../../../input.txt"));
 
             for (int i = 0; i < inputStrings.Count; i++)
             {
