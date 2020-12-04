@@ -7,6 +7,7 @@ namespace Day03Part1
     {
         public static void Main(string[] args)
         {
+            //Get the input from the file and convert it to a multidimensional char array
             string[] inputArray = System.IO.File.ReadAllText(@"../../../../input.txt").Split("\n");
             char[,] inputGrid = new char[inputArray.Length, inputArray[0].Length];
             for (int rowCount = 0; rowCount < inputGrid.GetLength(0); rowCount++)
@@ -21,6 +22,7 @@ namespace Day03Part1
                 }
             }
 
+            //Expand the input to account for the specified slope (1 down, 3 to the right)
             char[,] expandedGrid = new char[inputGrid.GetLength(0), (inputGrid.GetLength(0) * 3)];
             for (int rowCount = 0; rowCount < expandedGrid.GetLength(0); rowCount++)
             {
@@ -31,7 +33,7 @@ namespace Day03Part1
                 }
             }
 
-
+            //Count it up
             int columnIndex = 0;
             int rowIndex = 0;
             int treeCount = 0;
