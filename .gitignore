@@ -1,4 +1,4 @@
 bin
-objbin
 obj
 .vs
+bin/Debug/net5.0
