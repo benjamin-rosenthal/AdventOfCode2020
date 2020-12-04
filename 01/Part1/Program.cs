@@ -2,21 +2,22 @@
 using System.Collections.Generic;
 using Common;
 
-namespace Part1
+namespace Day01Part1
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            var inputStrings = InputReader.InputToList(System.IO.File.ReadAllText(@"../../../../input.txt"));
+            string[] inputStrings = System.IO.File.ReadAllText(@"../../../../input.txt").Split();
 
-            for (int i = 0; i < inputStrings.Count; i++)
+            for (int i = 0; i < inputStrings.Length; i++)
             {
-                for (int j = i + 1; j < inputStrings.Count; j++)
+                for (int j = i + 1; j < inputStrings.Length; j++)
                 {
                     int number1 = 0;
                     int number2 = 0;
-                    if (int.TryParse(inputStrings.ToArray()[i], out number1) && int.TryParse(inputStrings.ToArray()[j], out number2))
+
+                    if (int.TryParse(inputStrings[i], out number1) && int.TryParse(inputStrings[j], out number2))
                     {
                         if (number1 + number2 == 2020)
                         {

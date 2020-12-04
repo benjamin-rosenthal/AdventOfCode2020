@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x0KhcIoofb2Ar8JljZKMandkd8zLIqnBZ5ovAxM/YORseyyzIaZ5kSZIZ4yFTjH9mTClXdm+yKLPAWcIsoTSIg==",
+  "dgSpecHash": "KAvT5h4wI2xjRnWbbcg7tFea7fWrf3ABVR01nn9iVMJyWrVVk1Ydoc0nKOj01xmfG5wNLY4mmsC6sLqtrdGHNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part1\\Part1.csproj",
+  "projectFilePath": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part1\\Day01Part1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -10,3 +10,4 @@ C:\Users\brose\source\repos\AdventOfCode2020\Common\bin\Debug\netcoreapp3.1\Comm
 C:\Users\brose\source\repos\AdventOfCode2020\Common\obj\Debug\netcoreapp3.1\Common.dll
 C:\Users\brose\source\repos\AdventOfCode2020\Common\obj\Debug\netcoreapp3.1\Common.pdb
 C:\Users\brose\source\repos\AdventOfCode2020\Common\obj\Debug\netcoreapp3.1\Common.genruntimeconfig.cache
+C:\Users\brose\source\repos\AdventOfCode2020\Common\obj\Debug\netcoreapp3.1\Common.csprojAssemblyReference.cache

@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part2\\Part2.csproj",
-      "projectName": "Part2",
-      "projectPath": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part2\\Part2.csproj",
+      "projectUniqueName": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part2\\Day01Part2.csproj",
+      "projectName": "Day01Part2",
+      "projectPath": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part2\\Day01Part2.csproj",
       "packagesPath": "C:\\Users\\brose\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\brose\\source\\repos\\AdventOfCode2020\\01\\Part2\\obj\\",
       "projectStyle": "PackageReference",
