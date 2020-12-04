@@ -16,6 +16,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day02", "Day02", "{F3B59F76
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Day03", "Day03", "{EF9E652B-67BC-47FA-8BB3-120F8658C989}"
+	ProjectSection(SolutionItems) = preProject
+		Day03\input.txt = Day03\input.txt
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day01Part1", "Day01\Day01Part1\Day01Part1.csproj", "{8C97E100-1332-42DA-A4A7-5742A47EEB67}"
 EndProject
