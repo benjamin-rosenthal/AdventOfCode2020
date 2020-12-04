@@ -22,28 +22,14 @@ namespace Day03Part1
                 }
             }
 
-            //Expand the input to account for the specified slope (1 down, 3 to the right)
-            char[,] expandedGrid = new char[inputGrid.GetLength(0), (inputGrid.GetLength(0) * 3)];
-            for (int rowCount = 0; rowCount < expandedGrid.GetLength(0); rowCount++)
-            {
-                for (int columnCount = 0; columnCount < expandedGrid.GetLength(1); columnCount++)
-                {
-                    //ALL HAIL MODULUS
-                    expandedGrid[rowCount, columnCount] = inputGrid[rowCount,(columnCount % inputGrid.GetLength(1))];
-                }
-            }
-
-            //Count it up
-            int columnIndex = 0;
             int rowIndex = 0;
             int treeCount = 0;
             do
             {
-                if (expandedGrid[rowIndex, columnIndex] == '#') treeCount++;
+                if (inputGrid[rowIndex, ((rowIndex * 3) % inputGrid.GetLength(1))] == '#') treeCount++;
                 rowIndex++;
-                columnIndex += 3;
             }
-            while (rowIndex < expandedGrid.GetLength(0));
+            while (rowIndex < inputGrid.GetLength(0));
 
             Console.WriteLine("Augh! I ran into " + treeCount + " trees!");
         }
