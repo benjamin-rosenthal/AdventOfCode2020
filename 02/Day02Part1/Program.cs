@@ -1,16 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace Day02Part1
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string[] inputArray = System.IO.File.ReadAllText(@"../../../../input.txt").Split("\n");
 
-            List<UserPasswordRecord> userPasswordRecords = new List<UserPasswordRecord>();
             int validPasswordCount = 0;
             foreach (string line in inputArray)
             {
