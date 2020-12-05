@@ -10,9 +10,9 @@ namespace Day04Part1
             string[] inputArray = System.IO.File.ReadAllText(@"../../../../input.txt").Split("\n\n");
 
             int validPassports = 0;
-            foreach (var passwordRecord in inputArray)
+            foreach (var passportRecord in inputArray)
             {
-                if (IsPassportValid(passwordRecord)) validPassports++;
+                if (IsPassportValid(passportRecord)) validPassports++;
             }
 
             Console.WriteLine("Number of valid passports: " + validPassports);
